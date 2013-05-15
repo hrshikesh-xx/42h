@@ -1,83 +1,83 @@
 42h
 ===
 
-This a small project to be done in 2 weeks (3 hours per day during 2 weeks = 42 hours).
+*42h* is a small blog project which aims to evaluate a candidate code skills in 42h (3 hours per day during 2 weeks = 42 hours).
 
-The aim is to evaluate the candidate's skills.
+It has been written for junior web developers which have good knowledge of programming but might lack knowledge in web programming.
 
-The project is a blog, cut into XXXX steps; 9 are mandatory and YYYYY are optional.
 
-It should provide a RESTful JSON API backend, and optionally a responsive modular frontend.
+## Description
+*42h* should provide a RESTful JSON API backend and a responsive modular frontend.
 
-As for the data models, you are free to change their structure as much as you want.
+Optionally, *42h* may have "web realtime" notifications.
 
-# How to
+As for the data models, you are free to change/adapt their structure according to your needs.
 
-1. Fork
-2. Branch YOURGITHUBUSERNAME
+## Workflow 
+
+1. Fork on GitHub
+2. `git clone ...`
+3. `git co -b YOURGITHUBUSERNAME`
 3. Develop
-4. Commit
-5. Push
-6. Pull request
-7. Wait
+4. `git ci ...`
+5. `git push origin YOURGITHUBUSERNAME`
+6. Pull request on GitHub
+7. Wait : ]
 
-# Steps
+## Steps
 
-## Step 1
-* Write package.json
-* Write app's bootstrap/config
+### Step 1
+* Write bootstrap/config (backend)
 
-## Step 2
-* Model `post` (title, content, etc.) + CRUD
+### Step 2
+* Model `post` (title, content, etc.) + CRUD (backbend)
 
-## Step 3
-* Model `user` (email, username, etc.) + CRUD
+### Step 3
+* Model `user` (email, username, etc.) + CRUD (backend)
 
-## Step 4
-* Authenticate with passportjs
+### Step 4
+* Authenticate with passportjs (backend)
 
-## Step 5
-* Model `comments` (email, content, etc.) + CRUD
-* Model `tag` (for `post`) + CRUD
+### Step 5
+* Model `comments` (email, content, etc.) + CRUD (backend)
+* Model `tag` (for `post`) + CRUD (backend)
 
-## Step 6
-* Write tests for all previous steps
+### Step 6
+* Write tests for all previous steps (backend)
 
-## Step 7
-* Write bootstrap/config for frontend (bower + requirejs)
+### Step 7
+* Write bootstrap/config (frontend)
 
-## Step 8
-* Write models and views
+### Step 8
+* Write models and views (frontend)
 
-## Step 9
-* Write routes
+### Step 9
+* Write routes (frontend)
 
----
-
-## Step 10
+### Step 10 (bonus)
 * Add sockjs (server-side)
 
-## Step 11
+### Step 11 (bonus)
 * Add sockjs (client-side)
 
-## Step 12
+### Step 12 (bonus)
 * Write notification system for real time comment
 
-## Step 13 to ∞
-* `mount /dev/imagination /project/features` :]
+### Step 13 to ∞ (bonus)
+* `mount /dev/imagination /project/features` : ]
 
-# Protips
+## Protips
 * Focus on the 9 first steps
 * Write the most beautiful you can
 * Do *NOT* document your code (except JSDoc, which is recommanded)
 * Use provided resources and complete the list with your own
 
-# Resources
+## Resources
 
-## Coding style
+### Coding style
 http://nodeguide.com/style.html (applies for frontend JavaScript too)
 
-## Backend
+### Backend
 * http://nodejs.org/
 * http://expressjs.com (see also http://vimeo.com/56166857)
 * http://www.senchalabs.org/connect/
@@ -88,7 +88,7 @@ http://nodeguide.com/style.html (applies for frontend JavaScript too)
 * https://github.com/sockjs/sockjs-node
 * http://www.mongodb.org/
 
-## Frontend
+### Frontend
 * https://github.com/bower/bower
 * http://backbonejs.org/
 * http://requirejs.org/
